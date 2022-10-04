@@ -57,18 +57,17 @@ else
 
 //Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-/*Console.Write("Input number: ");
+/*Console.Write("Input number N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int current = 1;
 while(current<=num)
 {
-    if(num%2==0)
+    if(current %2 ==0)
     {
-    Console.Write(" " + num);
+        Console.Write($"{current}, ");
     }
-}
-num--;
-Console.Write("Input N");
+    current++;
 
+}
 */
